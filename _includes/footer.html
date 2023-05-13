@@ -15,6 +15,10 @@
         {{ site.author }}
         &nbsp;&bull;&nbsp;
       {% endif %}
+      {% if site.mbti %} 
+        {{ site.mbti }}
+        &nbsp;&bull;&nbsp;
+      {% endif %}
       {{ site.time | date: '%Y' }}
 
       {% if site.url-pretty %}
@@ -38,8 +42,8 @@
 
       </p>
       {% unless site.remove-ads %}<p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+        <!-- Powered by -->
+        <!-- <a href="https://beautifuljekyll.com">Beautiful Jekyll</a> -->
       </p>{% endunless %}
       </div>
     </div>
