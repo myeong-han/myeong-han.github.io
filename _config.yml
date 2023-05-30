@@ -21,11 +21,11 @@ mbti: INTJ
 ###############################################
 
 navbar-links:
-  Sounds: "navbar/sounds"
-  Films: "navbar/films"
-  Papers: "navbar/papers"
+  Sounds: "nav/sounds"
+  Films: "nav/films"
+  Papers: "nav/papers"
   Application:
-    - MBTI-Details: "navbar/application/mbti"
+    - MBTI-Details: "nav/app/mbti"
 #  Author's home: "https://deanattali.com"
 
 ################
@@ -34,7 +34,8 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+asset_url: "/assets/img"
+avatar: "/assets/img/profile.jpeg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -248,7 +249,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
