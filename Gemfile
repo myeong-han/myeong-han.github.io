@@ -6,3 +6,7 @@ gemspec
 
 
 gem "webrick", "~> 1.8"
+
+gem "jekyll-notion", "~> 2.3"
+
+gem "notion-ruby-client", "~> 1.2"

@@ -272,6 +272,37 @@ defaults:
     values:
       layout: "page"
 
+collections:
+  - "doc"
+  - "trouble"
+  - "cmd"
+
+notion:
+  fetch_on_watch: true
+  databases:
+    - id: f0c5be562d484e23ba8b609f1de58878
+      filter: { "and":[ { "property": "Github.io", "checkbox": { "equals": true } }, { "or":[ { "property": "Category", "select": { "equals": "1.setup/infra" }}, { "property": "Category", "select": { "equals": "1.setup/mac" }}] } ]}
+      sorts: [{ "property": "Category", "direction": "ascending" },{ "property": "Name", "direction": "ascending" }]
+    - id: f0c5be562d484e23ba8b609f1de58878
+      filter: { "and":[ { "property": "Github.io", "checkbox": { "equals": true } }, { "or":[ { "property": "Category", "select": { "equals": "4.doc/feature" }}, { "property": "Category", "select": { "equals": "4.doc/lang" }}, { "property": "Category", "select": { "equals": "4.doc/infra" }}] } ]}
+      sorts: [{ "property": "Category", "direction": "ascending" },{ "property": "Name", "direction": "ascending" }]
+      collection: doc
+    - id: f0c5be562d484e23ba8b609f1de58878
+      filter: { "and":[ { "property": "Github.io", "checkbox": { "equals": true } }, { "property": "Category", "select": { "equals": "2.trouble" }} ]}
+      sorts: [{ "property": "Category", "direction": "ascending" },{ "property": "Name", "direction": "ascending" }]
+      collection: trouble
+    - id: f0c5be562d484e23ba8b609f1de58878
+      filter: { "and":[ { "property": "Github.io", "checkbox": { "equals": true } }, { "or":[ { "property": "Category", "select": { "equals": "5.cmd/cm" }}, { "property": "Category", "select": { "equals": "5.cmd/cm2" }}, { "property": "Category", "select": { "equals": "5.cmd/infra" }}, { "property": "Category", "select": { "equals": "5.cmd/etc" }}] } ]}
+      sorts: [{ "property": "Category", "direction": "ascending" },{ "property": "Name", "direction": "ascending" }]
+      collection: cmd
+  pages:
+    - id: 0d2b51d85d4b4da9a92a2995e039e2c3
+      data: sounds
+    - id: 451c7885aad1464bbaeb8b67622d8ba4
+      data: films
+    - id: 2fcf13c66b25428b870e75f898e55ab3
+      data: papers
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
@@ -286,6 +317,7 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-notion
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 
