@@ -86,9 +86,12 @@
         <button id="gdt">Get Details</button>
         <button id="stm">Select Modal</button>
     </div>
-    <div style="overflow-y: scroll;" id="result"></div>
-    <div style="text-align: right; border-top: 1px solid lightgray;">
-        made by: <a href="https://github.com/myeong-han/" style="color: cornflowerblue; font-style: italic;">https://github.com/myeong-han/</a>
+    <div id="result"></div>
+    <!-- Disqus -->
+    <div id="disqus_thread"></div>
+    <!-- /Disqus -->
+    <div style="text-align: right; border-top: 1px solid lightgray; position: fixed; bottom: 0px; width: 100%; background-color: white;">
+        made by: <a href="https://github.com/myeong-han/" style="color: cornflowerblue; font-style: italic;">https://github.com/myeong-han/</a>&nbsp;&nbsp;&nbsp;
     </div>
 
     <div id="modal" class="modal-overlay">
@@ -109,16 +112,20 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script>
         //반응형 div height 조절
-        window.onload = function () {
-            this.responsiveAction();
-        }
-        window.onresize = function () {
-            this.responsiveAction();
-        }
-        function responsiveAction() {
-            console.log(window.innerHeight);
-            $("#result").css("height",(window.innerHeight - 100 - 52 /*(window.innerHeight * 0.15*/)+"px");
-        }
+        /*
+         * 댓글기능 추가로 인하여 삭제, footer 하단 고정
+         */
+        // window.onload = function () {
+        //     this.responsiveAction();
+        // }
+        // window.onresize = function () {
+        //     this.responsiveAction();
+        // }
+        
+        // function responsiveAction() {
+        //     console.log(window.innerHeight);
+        //     $("#result").css("height",(window.innerHeight - 100 - 57 - 362 /*(window.innerHeight * 0.15*/)+"px");
+        // }
 
         //modal action
         $( "#stm" ).on( "click", function( event ) {
@@ -245,5 +252,27 @@
             );
         }
     </script>
+
+    <!-- Disqus -->
+    <script id="dsq-count-scr" src="https://myeong-han-github-io.disqus.com/count.js" async></script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://myeong-han-github-io.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <!-- /Disqus -->
 </body>
 </html>
