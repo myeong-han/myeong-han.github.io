@@ -25,7 +25,7 @@ navbar-links:
   Films: "navbar/films"
   Papers: "navbar/papers"
   Application:
-    - MBTI-Details: "navbar/application/mbtiDetail/mbti.html"
+    - MBTI-Details: "navbar/application/mbti"
 #  Author's home: "https://deanattali.com"
 
 ################
