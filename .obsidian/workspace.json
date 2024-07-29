@@ -11,11 +11,9 @@
             "id": "c9ded10ce89fb822",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CHANGELOG.md",
-                "mode": "source",
-                "source": false
+                "file": "screenshot.png"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CHANGELOG.md",
+                "file": "screenshot.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CHANGELOG.md",
+                "file": "screenshot.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CHANGELOG.md"
+                "file": "screenshot.png"
               }
             }
           }
@@ -148,13 +146,14 @@
   },
   "active": "c9ded10ce89fb822",
   "lastOpenFiles": [
+    "README.md",
+    "CHANGELOG.md",
     "무제 파일.canvas",
     "2024-07-29.md",
     "_posts/2024-07-29-Test.md",
     "nav/sounds.md",
     "nav/papers.md",
     "nav/films.md",
-    "README.md",
     "assets/img/404-southpark.jpg",
     "assets/img/bgimage.png",
     "assets/img/avatar-icon.png",
@@ -164,7 +163,6 @@
     "assets/img/thumb.png",
     "assets/img/profile.jpeg",
     "_posts",
-    "CHANGELOG.md",
     "_data/AAAAA.md"
   ]
 }
