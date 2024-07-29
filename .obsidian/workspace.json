@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fa95df58b648af1",
+        "id": "f71cf7b36690cafa",
         "type": "tabs",
         "children": [
           {
-            "id": "b040ef9f071ea9ba",
+            "id": "c9ded10ce89fb822",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/TEST Page1111.md",
+                "file": "CHANGELOG.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/TEST Page1111.md",
+                "file": "CHANGELOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/TEST Page1111.md",
+                "file": "CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/TEST Page1111.md"
+                "file": "CHANGELOG.md"
               }
             }
           }
@@ -146,15 +146,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b040ef9f071ea9ba",
+  "active": "c9ded10ce89fb822",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "2024-07-29.md",
+    "_posts/2024-07-29-Test.md",
     "nav/sounds.md",
-    "_posts/TEST Page1111.md",
     "nav/papers.md",
+    "nav/films.md",
     "README.md",
+    "assets/img/404-southpark.jpg",
+    "assets/img/bgimage.png",
+    "assets/img/avatar-icon.png",
+    "assets/img/hello_world.jpeg",
+    "assets/img/install-steps.gif",
+    "assets/img/path.jpg",
+    "assets/img/thumb.png",
+    "assets/img/profile.jpeg",
     "_posts",
     "CHANGELOG.md",
-    "_data/AAAAA.md",
-    "nav/films.md"
+    "_data/AAAAA.md"
   ]
 }
