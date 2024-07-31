@@ -11,9 +11,11 @@
             "id": "c9ded10ce89fb822",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "screenshot.png"
+                "file": "_posts/2024-07-29-Test.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "screenshot.png",
+                "file": "_posts/2024-07-29-Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "screenshot.png",
+                "file": "_posts/2024-07-29-Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "screenshot.png"
+                "file": "_posts/2024-07-29-Test.md"
               }
             }
           }
@@ -146,6 +148,7 @@
   },
   "active": "c9ded10ce89fb822",
   "lastOpenFiles": [
+    "screenshot.png",
     "README.md",
     "CHANGELOG.md",
     "무제 파일.canvas",
